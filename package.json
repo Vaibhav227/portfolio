@@ -35,7 +35,7 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.5",
+    "@astrojs/mdx": "^4.0.7",
     "@astrojs/react": "^3.6.2",
     "@astrojs/tailwind": "^5.1.0",
     "@contentful/rich-text-html-renderer": "^17.0.0",
@@ -43,7 +43,7 @@
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@vercel/analytics": "^1.4.1",
-    "astro": "^4.16.16",
+    "astro": "^5.1.9",
     "astro-breadcrumbs": "^3.2.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
