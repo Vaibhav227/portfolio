@@ -16,7 +16,7 @@ export const PROFILE = {
     "I enjoy providing software solutions and bring ideas to life and solve real-world problems.",
   website: "https://vaibhu.com",
   repo: "https://github.com/Vaibhav227/portfolio",
-  avatarUrl: "https://vaibhu.com/vaibhu.webp",
+  // avatarUrl: "https://vaibhu.com/vaibhu.webp",
   shortIntros: [
     "💻 Software/AI Engineer | Open Source Lover ",
     "☘️ Passionate about Dev Experience(DX) Improvement and bringing ideas to life",
@@ -29,8 +29,8 @@ export const PROFILE = {
     "Remix",
     "Typescript",
     "React",
+    "Tailwind CSS",
     "Cloud Computing",
-    "Kubernetes",
     "Docker",
     "Node.js",
     "Postgres",
