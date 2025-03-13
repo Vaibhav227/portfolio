@@ -47,8 +47,19 @@ export const PROFILE = {
   studies: [
     // studies, qualifications and certifications
     {
-      title: "Bachelor of Technology in Computer Science and Engineering",
+      title: "B.Tech in Computer Science and Engineering",
       level: "Bachelor",
+      score: "9 CGPA",
+    },
+    {
+      title: "Class 12th (CBSE)",
+      level: "Intermediate",
+      score: "95%",
+    },
+    {
+      title: "Class 10th (CBSE)",
+      level: "Secondary",
+      score: "10 CGPA",
     },
   ],
 };
