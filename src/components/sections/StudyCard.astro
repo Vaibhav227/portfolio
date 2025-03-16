@@ -12,7 +12,13 @@ import { PROFILE } from "../../content/profileData";
 <div class="mt-2 flex w-full flex-wrap items-center justify-start gap-2">
   {
     PROFILE.studies.map((study) => (
-      <div key={study.title} class="flex w-full justify-between"><div>{study.title}</div><Badge variant="outline">{study.score}</Badge> </div>
+      <div key={study.title} class="w-full flex flex-col">
+      <div class="flex w-full justify-between">
+      <div>{study.title}</div>
+      <Badge variant="outline">{study.score}</Badge> 
+      </div>
+      <div class="text-xs">{study.endYear}</div>
+      </div>
     ))
   }
 </div>

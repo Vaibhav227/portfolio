@@ -50,16 +50,19 @@ export const PROFILE = {
       title: "B.Tech in Computer Science and Engineering",
       level: "Bachelor",
       score: "9 CGPA",
+      endYear: "2023",
     },
     {
       title: "Class 12th (CBSE)",
       level: "Intermediate",
       score: "95%",
+      endYear: "2019",
     },
     {
       title: "Class 10th (CBSE)",
       level: "Secondary",
       score: "10 CGPA",
+      endYear: "2017",
     },
   ],
 };
