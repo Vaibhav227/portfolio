@@ -1,8 +1,8 @@
-# Vaibhav's Astro Bento Portfolio
+# Vaibhav's Portfolio
 
 This template helps you build a portfolio using Astro, Typescript, React, Tailwind CSS, and Shadcn UI.
 
-- [Live Demo](https://vaibhav.com)
+- [Live Demo](https://vaibhu.com)
 - [GitHub Repo](https://github.com/vaibhav227/portfolio)
 
 ## Technologies Used
