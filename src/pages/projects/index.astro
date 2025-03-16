@@ -8,9 +8,9 @@ import IndexPageLayout from "../../layouts/IndexPageLayout.astro";
 // read mdx files from projects folder as entities
 const projects = await getCollection('projects');
 
-// sort projects by dateStart DESC
+// sort projects by dateStart ASC
 projects.sort((a: any, b: any) => {
-  return new Date(b.data.startDate) - new Date(a.data.startDate);
+  return new Date(a.data.startDate) - new Date(b.data.startDate);
 });
 ---
 
