@@ -19,9 +19,8 @@ export const PROFILE = {
   // avatarUrl: "https://vaibhu.com/vaibhu.webp",
   shortIntros: [
     "💻 Software Engineer | Open Source Lover ",
-    '🧑🏻‍💻 Building <a href="https://justcall.io/product/ai-voice-agent/" target="_blank" rel="noopener">JustCall\'s AI Voice Agent</a> at SaaS Labs',
+    '🧑🏻‍💻 Building <a href="https://justcall.io/product/ai-voice-agent/" target="_blank" rel="noopener" style="color:#3939ed; text-decoration:underline; font-weight:bold;">JustCall\'s AI Voice Agent</a> at SaaS Labs',
     "☘️ Passionate about User Experience(UX) Improvement and bringing ideas to life",
-    "💰 IPO Metrics Founder",
     "📈 Unprofessional Investor",
     "🎧 Music Lover | Love Playing Chess",
   ],

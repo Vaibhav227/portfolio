@@ -14,7 +14,7 @@ import {Linkedin, Github, Mail, Youtube, Twitter, Rss, Book, PanelsTopLeft, Inst
         Hi, I'm
         <b class="font-bold">{PROFILE.firstName}</b>.
       </p>
-      <ul class="pt-4">
+      <ul class="pt-4 intro-links">
         {PROFILE.shortIntros.map((intro, index) => (
           <>
             {index === (PROFILE.shortIntros.length / 2)
@@ -97,4 +97,19 @@ import {Linkedin, Github, Mail, Youtube, Twitter, Rss, Book, PanelsTopLeft, Inst
     alt={`image of ${PROFILE.name}`}
   /> -->
 </div>
+
+<style>
+  .intro-links li a {
+    color: var(--color-primary, #3182ce);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-thickness 0.2s ease, color 0.2s ease;
+  }
+  
+  .intro-links li a:hover {
+    color: var(--color-primary-hover, #2c5282);
+    text-decoration-thickness: 2px;
+  }
+</style>
 
