@@ -19,7 +19,9 @@ export const PROFILE = {
   // avatarUrl: "https://vaibhu.com/vaibhu.webp",
   shortIntros: [
     "💻 Software Engineer | Open Source Lover ",
+    "🧑🏻‍💻 Building JustCall's AI Voice Agent at SaaS Labs",
     "☘️ Passionate about User Experience(UX) Improvement and bringing ideas to life",
+    "💰 IPO Metrics Founder",
     "📈 Unprofessional Investor",
     "🎧 Music Lover | Love Playing Chess",
   ],
