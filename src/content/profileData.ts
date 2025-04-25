@@ -18,7 +18,7 @@ export const PROFILE = {
   repo: "https://github.com/Vaibhav227/portfolio",
   // avatarUrl: "https://vaibhu.com/vaibhu.webp",
   shortIntros: [
-    "💻 Software Engineer | Open Source Lover ",
+    "💻 Software Engineer ",
     '🧑🏻‍💻 Building <a href="https://justcall.io/product/ai-voice-agent/" target="_blank" rel="noopener" style="color:#3939ed; text-decoration:underline; font-weight:bold;">JustCall\'s AI Voice Agent</a> at SaaS Labs',
     "☘️ Passionate about User Experience(UX) Improvement and bringing ideas to life",
     "📈 Unprofessional Investor",
