@@ -24,9 +24,9 @@ export const PROFILE = {
     "📈 Unprofessional Investor",
     "🎧 Music Lover | Love Playing Chess",
   ],
-  words: [
-    "Life without love is useless and poor they say, appoint me in thy service, O Lord, with Love as my pay. - Srila Bhaktisiddhanta Sarasvati Thakur",
-  ],
+  // words: [
+  //   "Life without love is useless and poor they say, appoint me in thy service, O Lord, with Love as my pay. - Srila Bhaktisiddhanta Sarasvati Thakur",
+  // ],
   skills: [
     "Remix / Nextjs",
     "Typescript",
