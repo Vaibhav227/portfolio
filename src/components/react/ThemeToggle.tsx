@@ -26,6 +26,13 @@ export function ModeToggle() {
     setTheme(nextTheme);
     localStorage.setItem("theme", nextTheme);
     applyTheme(nextTheme);
+
+    // Play sound on toggle
+    const audio = new Audio("/switch-on (1).mp3");
+    audio.play().catch((error) => {
+      // Silently handle audio play errors (e.g., user hasn't interacted with page)
+      console.debug("Could not play sound:", error);
+    });
   };
 
   return (

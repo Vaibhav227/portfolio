@@ -12,7 +12,7 @@ import {Linkedin, Github, Mail, Youtube, Twitter, Rss, Book, PanelsTopLeft, Inst
       <!--</h6>-->
       <p class="m-0 text-xl font-light">
         Hi, I'm
-        <b class="font-bold">{PROFILE.firstName}</b>.
+        <b class="font-bold">{PROFILE.name}</b>.
       </p>
       <ul class="pt-4 intro-links">
         {PROFILE.shortIntros.map((intro, index) => (
@@ -89,13 +89,13 @@ import {Linkedin, Github, Mail, Youtube, Twitter, Rss, Book, PanelsTopLeft, Inst
       }
     </div>
   </div>
-    <!-- <img
-    src={PROFILE.avatarUrl}
-    class="pointer-events-none absolute bottom-[-20px] right-[-110px] z-[-1] max-h-[256px] w-auto select-none opacity-50 md:relative md:bottom-auto md:right-auto md:z-auto md:opacity-100"
-    width="100%"
-    height="auto"
+    <img
+    src="/myprofile.webp"
+    class="hidden lg:block rounded-lg pointer-events-none opacity-80"
+    width="250px"
+    height="100px"
     alt={`image of ${PROFILE.name}`}
-  /> -->
+  />
 </div>
 
 <style>

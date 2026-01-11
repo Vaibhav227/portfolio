@@ -1,6 +1,7 @@
 ---
 import { Card as ShadcnCard } from './ui/card'
 import { Badge } from './ui/badge'
+import { formateLocalDate } from "../lib/utils";
 
 
 const {
@@ -30,8 +31,8 @@ const {
       <h3 class="text-lg font-medium line-clamp-2">{heading}</h3>
       <h4 class="text-muted-foreground line-clamp-3">{subheading}</h4>
     </div>
-    <div class="flex flex-wrap px-5 py-2 sr-only">
-      <Badge variant="outline">{dateStart}</Badge>
+    <div class="flex flex-wrap px-5 py-2 text-sm text-white">
+      {formateLocalDate(dateStart)}
     </div>
     <!--<slot />-->
   </ShadcnCard>
