@@ -22,11 +22,9 @@ export const PROFILE = {
     '🧑🏻‍💻 Building <a href="https://justcall.io/product/ai-voice-agent/" target="_blank" rel="noopener" style="color:#3939ed; text-decoration:underline; font-weight:bold;">JustCall\'s AI Voice Agent</a> at SaaS Labs',
     "☘️ Passionate about User Experience(UX) Improvement and bringing ideas to life",
     "📈 Unprofessional Investor",
-    "🎧 Music Lover | Love Playing Chess",
+    "🎧 Music Lover",
   ],
-  // words: [
-  //   "Life without love is useless and poor they say, appoint me in thy service, O Lord, with Love as my pay. - Srila Bhaktisiddhanta Sarasvati Thakur",
-  // ],
+
   skills: [
     "Remix / Nextjs",
     "Typescript",

@@ -15,8 +15,23 @@ posts.sort((a: any, b: any) => {
 });
 ---
 
-<IndexPageLayout title="Blog" description="This is a simple blog for my this profile website."
-                 subTitle="My Simple Blog">
+<IndexPageLayout title="Blog" description="A builder's notebook: tech, products, decisions, and lessons. Thoughts, ideas, and experiments from my corner of the internet."
+                 subTitle="Vaibhav's Blog">
+
+  <div class="w-full mb-4 text-center">
+    <a 
+      href="/rss.xml" 
+      class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+      title="Subscribe to RSS feed"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 11a9 9 0 0 1 9 9"></path>
+        <path d="M4 4a16 16 0 0 1 16 16"></path>
+        <circle cx="5" cy="19" r="1"></circle>
+      </svg>
+      RSS Feed
+    </a>
+  </div>
 
   <div class="grid grid-cols-3 gap-3">
     {
