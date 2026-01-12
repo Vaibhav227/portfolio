@@ -13,7 +13,7 @@ export const PROFILE = {
   name: "Vaibhav Sharma",
   headLine: "Learn and Grow ❤️",
   headLine2:
-    "I enjoy building software and bring ideas to life and solve real-world problems.",
+    "I enjoy building software and bring ideas to life and solve real world problems.",
   website: "https://vaibhu.com",
   repo: "https://github.com/Vaibhav227/portfolio",
   // avatarUrl: "https://vaibhu.com/vaibhu.webp",
