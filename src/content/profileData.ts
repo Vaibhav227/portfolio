@@ -13,7 +13,7 @@ export const PROFILE = {
   name: "Vaibhav Sharma",
   headLine: "Learn and Grow ❤️",
   headLine2:
-    "I enjoy building software and bring ideas to life and solve real world problems.",
+    "I enjoy building software and bring ideas to life and solve real world problems. I’m especially interested in the intersection of frontend engineering, product thinking, and AI. I care deeply about clean code, great UX, and shipping things that meaningfully move the product forward.",
   website: "https://vaibhu.com",
   repo: "https://github.com/Vaibhav227/portfolio",
   // avatarUrl: "https://vaibhu.com/vaibhu.webp",
@@ -26,15 +26,22 @@ export const PROFILE = {
   ],
 
   skills: [
-    "Remix / Nextjs",
+    "HTML",
+    "CSS",
+    "Remix.run",
+    "Nextjs",
     "Typescript",
     "React",
     "Tailwind CSS",
     "Cloud Computing",
     "Docker",
     "Node.js",
-    "SQL",
     "Astro",
+    "React Query",
+    "Zustand",
+    "Turborepo",
+    "SQL",
+    "Zod"
   ],
   links: {
     github: "https://github.com/Vaibhav227",
