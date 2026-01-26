@@ -1,0 +1,64 @@
+---
+slug: "animations"
+title: "Animations for Web"
+description: "Simplifying All about Animations for Web"
+startDate: 2026-01-26
+image: { url: "/animations.png", alt: "Animations For Web" }
+tags: ["Animations", "CSS Animations", "Framer Motion", "CSS Transitions", "WAAPI", "Spring Animations"]
+---
+
+Animations bring out the artist in a frontend developer — and they’re also one of the most dreaded topics for anyone learning CSS.
+
+CSS Animations, Spring Animations, Transitions, Transforms, Framer Motion, the Web Animations API, Fluid UI — these are all buzzwords in modern frontend development. They’re highly sought-after skills, yet only a handful of developers in the industry truly master this craft.
+
+When companies like Apple, Vercel, or Linear use animations in their marketing pages and products, people notice. They admire the polish, the smoothness, the attention to detail. These animations make products feel unique, delightful, and cool. That’s one of the reasons these companies are so highly regarded when it comes to UI and UX.
+
+In this blog, I’ll simplify what does what — and, more importantly, when to use what. If you read this till the end, you’ll be able to clearly differentiate between these techniques and make informed decisions instead of blindly following trends.
+
+Today, many developers reach for Framer Motion even when it’s not needed, simply because AI tools like Cursor or Lovable generate code that defaults to it.
+
+But choosing between Framer Motion and CSS shouldn’t be driven by convenience or AI suggestions. It should be based on performance, complexity, and the actual use case.
+
+Knowing when to use CSS and when to use a library is what separates a senior frontend developer from a junior developer — and from AI.
+
+Some CSS animations are hardware-accelerated, which means the browser can offload the work to the GPU. These animations remain smooth even when the main thread is busy. In practice, animations that rely on transform (and opacity) are usually hardware-accelerated and are the most performant option for many UI interactions.
+
+That’s not the case for animations driven by <strong>requestAnimationFrame</strong>, which is what Framer Motion uses under the hood. Since these animations run on the main thread, the busier it gets, the more frames are likely to be dropped — leading to jank if you’re not careful.
+
+
+<strong>When to use CSS animations</strong>
+
+- Use CSS animations when:
+
+- You need a simple hover or focus effect
+
+- You want to animate an element in or out of the DOM
+
+- You have an infinite, linear animation (for example, a marquee or loading shimmer)
+
+- You’re working on a bundle-size–sensitive project
+
+CSS shines when animations are predictable, lightweight, and don’t require complex state management.
+
+<strong>When to use Framer Motion (or other animation libraries)</strong>
+
+- Use Framer Motion or similar libraries when:
+
+- You need to create complex, multi-step animations
+
+- You want animations to feel more expressive and sophisticated
+
+- You need animations to be interruptible and respond naturally to user input
+
+Animation libraries excel when motion is tightly coupled with interaction, state, and gesture.
+
+
+This article is being written in public. I’ll be adding more sections, demos, and real-world animation examples over time.
+
+If you want the full version earlier and would like to support the work behind it, you can buy me a coffee below ☕
+
+That’s my signal to ship the rest.
+
+<div style="text-align: center;">
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="vaibhu" data-color="hsl(var(--primary))" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+</div>
