@@ -1,5 +1,5 @@
 {
-  "site": "https://vaibhu.com",
+  "site": "https://vaibhavsh.com",
   "id": "vaibhav227",
   "name": "@vaibhav227/vaibhav227",
   "version": "1.0.0",
@@ -7,13 +7,13 @@
   "description": "Learn, Share and Grow ❤️ -- Software Engineer | AWS Professional | Open Source Lover  --☘️ Be more productive, Better in communicating, Contribute more to community ",
   "author": {
     "name": "Vaibhav Sharma",
-    "url": "https://vaibhu.com"
+    "url": "https://vaibhavsh.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/vaibhav227/portfolio"
   },
-  "homepage": "https://vaibhu.com",
+  "homepage": "https://vaibhavsh.com",
   "keywords": [
     "astro",
     "portfolio",

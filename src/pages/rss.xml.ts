@@ -13,7 +13,7 @@ export const GET: APIRoute = async ({ site }) => {
     );
   });
 
-  const siteUrl = site?.href || "https://vaibhu.com";
+  const siteUrl = site?.href || "https://vaibhavsh.com";
   const blogUrl = `${siteUrl}/posts`;
   const rssUrl = `${siteUrl}/rss.xml`;
 

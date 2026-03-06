@@ -14,9 +14,9 @@ export const PROFILE = {
   headLine: "Learn and Grow ❤️",
   headLine2:
     "I enjoy building software and bring ideas to life and solve real world problems. I’m especially interested in the intersection of frontend engineering, product thinking, and AI. I care deeply about clean code, great UX, and shipping things that meaningfully move the product forward.",
-  website: "https://vaibhu.com",
+  website: "https://vaibhavsh.com",
   repo: "https://github.com/Vaibhav227/portfolio",
-  // avatarUrl: "https://vaibhu.com/vaibhu.webp",
+  // avatarUrl: "https://vaibhavsh.com/vaibhu.webp",
   shortIntros: [
     "💻 Software Engineer ",
     '🧑🏻‍💻 Building <a href="https://justcall.io/product/ai-voice-agent/" target="_blank" rel="noopener" style="color:#3939ed; text-decoration:underline; font-weight:bold;">JustCall\'s AI Voice Agent</a> at SaaS Labs',

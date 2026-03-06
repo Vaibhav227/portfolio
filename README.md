@@ -2,7 +2,7 @@
 
 This template helps you build a portfolio using Astro, Typescript, React, Tailwind CSS, and Shadcn UI.
 
-- [Live Demo](https://vaibhu.com)
+- [Live Demo](https://vaibhavsh.com)
 - [GitHub Repo](https://github.com/vaibhav227/portfolio)
 
 ## Technologies Used
