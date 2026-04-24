@@ -13,16 +13,16 @@ export const PROFILE = {
   name: "Vaibhav Sharma",
   headLine: "Learn and Grow ❤️",
   headLine2:
-    "I enjoy building software and bring ideas to life and solve real world problems. I’m especially interested in the intersection of frontend engineering, product thinking, and AI. I care deeply about clean code, great UX, and shipping things that meaningfully move the product forward.",
+    "Software Development Engineer II with 3 years of experience building production-grade web and AI-powered systems. Leading frontend architecture for JustCall’s AI Voice Agent (AIVA), enabling automated inbound and outbound call workflows. Focused on building performant, maintainable, and user-centric systems.",
   website: "https://vaibhavsh.com",
   repo: "https://github.com/Vaibhav227/portfolio",
   // avatarUrl: "https://vaibhavsh.com/vaibhu.webp",
   shortIntros: [
     "💻 Software Engineer ",
     '🧑🏻‍💻 Building <a href="https://justcall.io/product/ai-voice-agent/" target="_blank" rel="noopener" style="color:#3939ed; text-decoration:underline; font-weight:bold;">JustCall\'s AI Voice Agent</a> at SaaS Labs',
-    "☘️ Passionate about User Experience(UX) Improvement and bringing ideas to life",
-    "📈 Unprofessional Investor",
-    "🎧 Music Lover",
+    "☘️ Passionate about User Experience(UX) Improvement and building high-performance systems",
+    "🧩 Building modular, scalable UI systems for complex workflows",
+    "⚡ Focused on performance, maintainability, and developer experience",
   ],
 
   skills: [
