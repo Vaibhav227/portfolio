@@ -26,14 +26,11 @@ export const PROFILE = {
   ],
 
   skills: [
-    "HTML",
-    "CSS",
     "Remix.run",
     "Nextjs",
     "Typescript",
     "React",
     "Tailwind CSS",
-    "Cloud Computing",
     "Docker",
     "Node.js",
     "Astro",
@@ -41,7 +38,6 @@ export const PROFILE = {
     "Zustand",
     "Turborepo",
     "SQL",
-    "Zod"
   ],
   links: {
     github: "https://github.com/Vaibhav227",
